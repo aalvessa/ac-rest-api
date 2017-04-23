@@ -1,0 +1,11 @@
+## Eclipse
+
+target/
+.metadata
+.gradle
+local.properties
+.settings/
+.loadpath
+
+## READ ME do Bitbucket
+README.md
