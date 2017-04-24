@@ -1,6 +1,8 @@
 # README #
 
-### AC-REST-API ###
+### AC-REST-API ### 
+
+* Anderson Alves de Sá - BR
 
 * The project must be run with : mvn jetty:run
 * I couldn't run the tests because of a problem with cdi and jetty plugin, the test classes are in the project, they can be run through eclipse.
