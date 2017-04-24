@@ -72,4 +72,9 @@ public class Product extends EntityBase{
 		this.description = description;
 	}
 
+	public void addImage(Image image) {
+		image.setProduct(this);
+		this.getImages().add(image);
+	}
+
 }

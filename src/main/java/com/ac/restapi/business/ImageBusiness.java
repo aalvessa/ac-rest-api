@@ -31,6 +31,10 @@ public class ImageBusiness {
 		return image;
 	}
 	
+	public Image findById (long id){		
+		return (Image) imageDao.findById(Image.class, id);
+	}
+	
 	public void remove (long id){
 		imageDao.delete(new Image(id));
 	}
