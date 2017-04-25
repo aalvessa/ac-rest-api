@@ -1,7 +1,6 @@
 # README #
 
-### AC-REST-API ### 
-
+### AC-REST-API 
 * Anderson Alves de Sá - BR
 
 * The project must be run with : mvn jetty:run
